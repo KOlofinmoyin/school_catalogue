@@ -21,14 +21,14 @@ class School{
   }
 
   get numberOfStudents(){
-    return this._numberOfStudents
-  };
+    return this._numberOfStudents;
+  }
 
 // Setters: the numberOfStudents property has a setter
   set numberOfStudents(newNumberOfStudents){
       this._numberOfStudents = newNumberOfStudents;
-  };
+  }
 
-Methods: .quickFacts() and .pickSubstituteTeacher() (this is a static method)
+// Methods: .quickFacts() and .pickSubstituteTeacher() (this is a static method)
 
 }
