@@ -51,6 +51,18 @@ class Primary extends School{
     }
 }
 
+// -------------------- Middle (sub-class) --------------------
+class Middle extends School{
+   constructor(name, level, numberOfStudents, pickupPolicy){
+       super(name, level, numberOfStudents);
+       this._pickupPolicy = pickupPolicy;
+   }
+
+   get pickupPolicy(){
+       return this._pickupPolicy = pickupPolicy;
+   }
+}
+
  // -------------------- High (sub-class) --------------------
 
 class High extends School{
