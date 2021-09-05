@@ -31,7 +31,7 @@ class School{
   }
 
 // Methods: .quickFacts() and .pickSubstituteTeacher() (this is a static method)
-  pickSubstituteTeacher(){
+  static pickSubstituteTeacher(){
 
   }
 
