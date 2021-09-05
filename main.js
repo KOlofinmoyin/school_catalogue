@@ -31,10 +31,22 @@ class School{
 
 // Methods: .quickFacts() and .pickSubstituteTeacher() (this is a static method)
   pickSubstituteTeacher(){
-    
+
   }
 
   quickFacts(){
 
   }
+}
+
+ // -------------------- Primary (sub-class) --------------------
+class Primary extends School{
+    constructor(name, level, numberOfStudents, pickupPolicy){
+        super(name, level, numberOfStudents);
+        this._pickupPolicy = pickupPolicy;
+    }
+
+    get pickupPolicy(){
+        return this._pickupPolicy = pickupPolicy;
+    }
 }
