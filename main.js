@@ -31,8 +31,9 @@ class School{
   }
 
 // Methods: .quickFacts() and .pickSubstituteTeacher() (this is a static method)
-  static pickSubstituteTeacher(){
-
+  static pickSubstituteTeacher(substituteTeachers){
+      let teacherSelected = Math.floor(Math.random() * substituteTeachers.length)
+      return substituteTeachers[teacherSelected];
   }
 
   quickFacts(){
