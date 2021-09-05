@@ -1,6 +1,8 @@
 # School Catalogue
 
-![school](https://user-images.githubusercontent.com/33905131/132131401-bafcb23a-9686-4a28-9bf1-65ddff71323d.gif)
+
+![school](https://user-images.githubusercontent.com/33905131/132133629-e6dcfee9-8347-4d99-bbe9-483472c288f2.gif)
+
 
 
 A digital school catalog for a fictitious Department of Education. The Department of Education wants the catalog to hold quick reference material for each school in the city.
