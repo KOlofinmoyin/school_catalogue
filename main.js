@@ -10,7 +10,19 @@ class School{
         this._numberOfStudents = numberOfStudents;
     }
 
-Getters: all properties have getters
+// Getters: all properties have getters
+
+  get name(){
+    return this._name;
+  }
+
+  get level(){
+    return this._level;
+  }
+
+  get numberOfStudents(){
+    return this._numberOfStudents
+  };
 
 Setters: the numberOfStudents property has a setter
 
