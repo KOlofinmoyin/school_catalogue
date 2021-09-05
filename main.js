@@ -37,7 +37,7 @@ class School{
   }
 
   quickFacts(){
-    console.log(`${name} educates ${numberOfStudents} students at the ${level} school level.`)
+    console.log(`${this.name} educates ${this.numberOfStudents} students at the ${this.level} school level.`)
   }
 }
 
@@ -74,7 +74,7 @@ class HighSchool extends School{
       }
 
       get sportsTeams(){
-          return this._sportsTeams;
+          console.log(sportsTeams);;
         }
 
 }
