@@ -26,7 +26,8 @@ class School{
 
 // Setters: the numberOfStudents property has a setter
   set numberOfStudents(newNumberOfStudents){
-      this._numberOfStudents = newNumberOfStudents;
+    return Number.isInteger(newNumberOfStudents) ? this._numberOfStudents = newNumberOfStudents :
+    'Invalid input: numberOfStudents must be set to a Number.';
   }
 
 // Methods: .quickFacts() and .pickSubstituteTeacher() (this is a static method)
