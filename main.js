@@ -69,6 +69,7 @@ class MiddleSchool extends School{
 
 class HighSchool extends School{
       constructor(name, numberOfStudents, sportsTeams){
+        super(name, numberOfStudents);
           this._sportsTeams = sportsTeams;
       }
 
