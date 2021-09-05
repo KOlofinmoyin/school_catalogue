@@ -74,7 +74,8 @@ class HighSchool extends School{
       }
 
       get sportsTeams(){
-          console.log(sportsTeams);;
+        for (const team of this._sportsTeams){
+          console.log(` - ${team}`);
+          }
         }
-
 }
