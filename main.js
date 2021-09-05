@@ -50,3 +50,16 @@ class Primary extends School{
         return this._pickupPolicy = pickupPolicy;
     }
 }
+
+ // -------------------- High (sub-class) --------------------
+
+class High extends School{
+      constructor(name, level, numberOfStudents, sportsTeams){
+          this._sportsTeams = sportsTeams;
+      }
+
+      get sportsTeams(){
+          return this._sportsTeams;
+        }
+
+}
