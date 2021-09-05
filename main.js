@@ -24,7 +24,10 @@ class School{
     return this._numberOfStudents
   };
 
-Setters: the numberOfStudents property has a setter
+// Setters: the numberOfStudents property has a setter
+  set numberOfStudents(newNumberOfStudents){
+      this._numberOfStudents = newNumberOfStudents;
+  };
 
 Methods: .quickFacts() and .pickSubstituteTeacher() (this is a static method)
 
